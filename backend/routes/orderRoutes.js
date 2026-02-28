@@ -3,7 +3,7 @@ const router = express.Router();
 const Order = require('../models/Order');
 
 // Middleware to verify token (protect routes)
-const protect = require('../middleware/authMiddleware');
+const protect = require('../middleware/authMiddleWare');
 
 // Create a new order (user must be logged in)
 router.post('/', protect, async (req, res) => {
