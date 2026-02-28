@@ -7,7 +7,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://ssi-fitness-frontend.onrender.com'
+    'https://ssi-fitness-test2-frontend.onrender.com'
   ]
 }));
 app.use(express.json());
